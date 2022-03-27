@@ -9,8 +9,8 @@
 
 ![image](https://user-images.githubusercontent.com/31022640/160261535-dce84749-0a26-4946-9bf7-91a6ca706b66.png)
 
-4. Flask application / Jinja tmeplating
-5. Freeze Dependancies
+4. Flask application / Jinja templating 
+5. Freeze Dependancies `pip freeze > requirements.txt`
 6. Build Docker image
 7. Write Docker Compose file
 8. Write Kubernetes Manifest files
