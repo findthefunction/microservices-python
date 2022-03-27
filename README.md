@@ -12,6 +12,9 @@
 4. Flask application / Jinja templating 
 5. Freeze Dependancies `pip freeze > requirements.txt`
 6. Build Docker image
-7. Write Docker Compose file
-8. Write Kubernetes Manifest files
-9. Create HELM chart
+   When building image I encountered a stubborn error related to testing on local host. 
+   standard build command: `docker build -t webapp:1.0` returned NewConnectionError.
+   Solution: `docker build --network=host -t webapp:1.0 .` https://docs.docker.com/network/host/
+8. Write Docker Compose file
+9. Write Kubernetes Manifest files
+10. Create HELM chart
