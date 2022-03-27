@@ -9,6 +9,10 @@ __pycache__/
 # ENV files
 test-env
 
+# minikube
+
+minikube-linux-amd64
+
 # Distribution / packaging
 .Python
 build/
