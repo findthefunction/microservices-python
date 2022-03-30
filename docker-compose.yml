@@ -1,0 +1,16 @@
+version: "3.9"  # optional since v1.27.0
+kind: Deployment
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: webapp-test
+    ports:
+      - "80:5000"
+    restart: always
+    networks:
+      - webnet
+networks:
+  webnet:
+

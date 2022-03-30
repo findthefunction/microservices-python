@@ -2,7 +2,7 @@ from flask import Flask, jsonify, render_template
 import socket
 app = Flask(__name__)
 
-# FUnction to fetch hostname and ip
+# Function to fetch hostname and ip
 def fetchDetails():
 	hostname = socket.gethostname()
 	host_ip = socket.gethostbyname(hostname)
